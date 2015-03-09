@@ -1,0 +1,25 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "require" :
+  {
+    "domnikl/design-patterns-php": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Test\\": "src/",
+      "DesignPatterns\\": [
+        "vendor/domnikl/design-patterns-php/More",
+        "src/other"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ]
+}
